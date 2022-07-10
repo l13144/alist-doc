@@ -185,10 +185,35 @@ var granimInstance = new Granim({
 
 
 
+# 自定义背景+微透30%
 
 
+<style>
+.chakra-ui-light{
+  background-image: url("https://www.dmoe.cc/random.php") !important;
+}
+<style>
 
+<style>
+.main-box {
+  background-color: rgba(255,255,255,0.3) !important;
+}
+.chakra-ui-light .main-box {
+  background-color: rgba(255,255,255,0.3) !important;
+}
+.chakra-ui-light .readme-box {
+  background-color: rgba(255,255,255,0.3) !important;
+}
+.readme-box {
+  border-radius: 15px !important;
 
+}
+</style>
+<style>
+.chakra-ui-light .readme-box {
+  background-color: rgba(255,255,255,0.3) !important;
+}
+</style>
 :::tip
 如果你有好看的样式想要分享出来，可以点击下方的[Edit this page](https://github.com/Xhofe/alist-doc/edit/main/docs/style.md)发起pr将你的样式添加到本页面。
 :::
